@@ -19,7 +19,7 @@ If this successfully loads a Jupyter notebook, you're ready to go!
 
 ## For any Windows users that don't want to use Docker:
 
-Please download and install the Anaconda Python 3.8 distribution on your local machine. If you're familiar with Conda environments, please set one up and get it ready for use in a Jupyter notebook. 
+Please download and install the Anaconda Python 3.8 (https://www.anaconda.com/products/individual#windows) distribution on your local machine. If you're familiar with Conda environments, please set one up and get it ready for use in a Jupyter notebook. 
 
 Then, please install a number of packages on the command line as follows:
 ```
