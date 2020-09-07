@@ -42,3 +42,6 @@ pip install --upgrade snowflake-sqlalchemy
 pip install pystan
 pip install fbprophet
 ```
+
+## For Linux users that prefer Docker:
+Please follow the instructions above for Windows users, but you'll have to go without the fancy Docker Desktop GUI. If this is your preferred method, I'm going to assume that you're technical enough to do it already, but please email me with any problems.
