@@ -25,7 +25,8 @@ Then, please install a number of packages on the command line as follows:
 ```
 conda install libpython m2w64-toolchain -c msys2
 conda install numpy cython -c conda-forge
-conda install matplotlib scipy pandas -c conda-forgepip install ipython-sql
+conda install matplotlib scipy pandas -c conda-forge
+pip install ipython-sql
 pip install snowflake-connector-python[pandas]
 pip install --upgrade snowflake-sqlalchemy
 pip install pystan
