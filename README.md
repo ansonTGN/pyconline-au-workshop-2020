@@ -8,7 +8,7 @@ You'll need to make sure you've signed up at https://trial.snowflake.com for an 
 
 The easiest way to get everything running tomorrow will be to use the Snowtire Docker Container:
 - Download and unzip into a folder the Zip file at https://github.com/zoharsan/snowtire/archive/master.zip
-- Download and install Docker Desktop from https://www.docker.com/products/docker-desktop, if you don't already have it installed.
+- Download and install Docker Desktop from https://www.docker.com/products/docker-desktop, if you don't already have it installed. **Note: As of January 2022, Docker Desktop requires a paid license for commercial use - if that affects you, use the instructions for Anaconda below**
 - Configure Docker Desktop to use at least 4GB of RAM - see https://docs.docker.com/docker-for-windows/.
 - At the command line, navigate to the folder you unzipped the Zip file to
 - Run `docker build --pull -t snowtire .`
