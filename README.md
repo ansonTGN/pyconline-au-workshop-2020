@@ -1,5 +1,7 @@
 # pyconline-au-workshop-2020
 
+###Note that these instructions changed late on the 4th of April, 2022, due to challenges using Prophet and Pystan in 2022. 
+
 ## For everyone:
 
 You'll need to make sure you've signed up at https://trial.snowflake.com for an account. For best results, you should use at least an Enterprise account in AWS AP-Southeast-2, but any region should work.
@@ -19,7 +21,7 @@ If this successfully loads a Jupyter notebook, you're ready to go!
 
 ## For any Windows users that don't want to use Docker:
 
-Please download and install the Anaconda Python 3.8 (https://www.anaconda.com/products/individual#windows) distribution on your local machine. If you're familiar with Conda environments, please set one up and get it ready for use in a Jupyter notebook. 
+Please download and install the Anaconda Python (https://www.anaconda.com/products/individual#windows) distribution on your local machine. If you're familiar with Conda environments, please set one up and get it ready for use in a Jupyter notebook. 
 
 Then, please install a number of packages on the command line as follows:
 ```
@@ -29,19 +31,19 @@ conda install matplotlib scipy pandas -c conda-forge
 pip install ipython-sql
 pip install snowflake-connector-python[pandas]
 pip install --upgrade snowflake-sqlalchemy
-pip install pystan
-pip install fbprophet
+conda install pystan==2.19.1.1
+conda install -c conda-forge prophet
 ```
 
 ## For Mac / Linux users:
-Ensure you have Python 3.6 or above installed and set up a virtualenv if you prefer. You'll also want Jupyter. Then, install as follows:
+As of April 2022, installing fbprophet can be quite a bit more difficult, as it doesn't support PyStan version 3, and older PyStan versions can be quite tricky with newer versions of Python (or, at least, I think that's the issue). As a result, I now recommend Anaconda for these platforms also:
 ```
 pip install jupyter
 pip install ipython-sql
 pip install snowflake-connector-python[pandas]
 pip install --upgrade snowflake-sqlalchemy
-pip install pystan
-pip install fbprophet
+conda install pystan==2.19.1.1
+conda install -c conda-forge prophet
 ```
 
 ## For Linux users that prefer Docker:
