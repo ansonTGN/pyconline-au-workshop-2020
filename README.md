@@ -1,6 +1,6 @@
 # pyconline-au-workshop-2020
 
-###Note that these instructions changed late on the 4th of April, 2022, due to challenges using Prophet and Pystan in 2022. 
+### Note that these instructions changed late on the 4th of April, 2022, due to challenges using Prophet and Pystan in 2022. 
 
 ## For everyone:
 
